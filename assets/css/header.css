@@ -1,0 +1,90 @@
+.header{
+    position: absolute;
+    width: 100%;
+    padding: 2rem 4rem;
+    opacity: 0;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+    animation-name: header__fadeIn;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    
+}
+
+.header__container{
+    color:green;
+}
+
+.header__list{
+
+    display: flex;
+}
+
+.header__title{
+    font-family: 'quicksand', sans-serif;
+    font-size: 3rem;
+    margin: 1rem;
+ 
+
+}
+
+.header__main{
+    text-decoration: none;
+    transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.header__main:hover{
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+    color: rgb(17, 17, 17);
+}
+
+.header__link{
+    text-decoration: none;
+    color: rgb(17, 17, 17);
+
+    transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.header__link:hover{
+    text-decoration: none;
+    color: rgb(49, 75, 4);
+    font-weight: 600;
+    border-bottom: 1px solid black;
+    letter-spacing: .5rem;
+    margin: 0 2rem;
+}
+
+
+.header__item{
+    margin-right: 1rem;
+    list-style: none;
+    font-size: 1.8rem;
+
+}
+
+
+
+@keyframes header__fadeIn {
+    100%{
+        opacity: 1;
+    }
+}
+
+
+
+@media screen and (max-width: 472px){
+    .header{
+        justify-content: center;
+    }
+    .header__item{
+        list-style: none;
+        font-size: 1.6rem;
+    }
+    
+}

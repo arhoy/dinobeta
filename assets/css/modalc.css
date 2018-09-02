@@ -1,0 +1,14 @@
+.modalc{
+    background-image: linear-gradient(to right bottom,rgb(255, 175, 28), rgb(252, 229, 98));
+    font-size: 1.6rem;
+}
+.modalc__title{
+    font-size: 2.2rem;
+}
+.modalc__item{
+    font-size: 1.8rem;
+}
+.modalc__instructions, .modalc__ingredients{
+    text-align: center;
+    font-size: 2rem;
+}

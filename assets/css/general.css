@@ -1,0 +1,49 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+html{
+    font-family: 'Open Sans';
+    font-size: 62.5%; /* 1 rem is 10px;*/
+}
+
+nav{
+ list-style: none;
+}
+
+a{
+    list-style: none !important;
+    text-decoration: none;
+    color:rgb(51, 46, 46);
+}
+button{
+    cursor: pointer;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.alert{
+    margin-top: 3rem;
+    color: white;
+    font-size: 1.4rem;
+    padding: 2rem 4rem;
+}
+.alert-error{
+    background-color: rgb(209, 68, 68);
+}
+
+.alert-success {
+    background-color: rgb(136, 206, 136);
+    color:rgb(51, 46, 46);
+}
